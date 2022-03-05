@@ -1,4 +1,4 @@
-var title = new MovingTitle("neksio.cf ", 300, 10);
+var title = new MovingTitle("neksio#1018 ", 300, 10);
 title.init();
 function MovingTitle(writeText, interval, visibleLetters) {
   var _instance = {};

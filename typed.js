@@ -8,7 +8,7 @@
 */
 
 new Typed('#typed',{
-    strings : ['neksio','idiot','skid','faggot'],
+    strings : ['neksio','developer','vfx editor','gfx designer','ui designer','idiot','skid'],
     typeSpeed : 40,
     delaySpeed : 90,
     loop : true

@@ -7,6 +7,8 @@
 ╚═╝  ╚═══╝╚══════╝╚═╝  ╚═╝╚══════╝╚═╝ ╚═════╝ ╚═╝ ╚═════╝╚═╝ 
 */
 
+<!-- !!!!!!!!!!!!! THIS WEBSITE IS FREE TO USE !!!!!!!!!!!!! -->
+
 new Typed('#typed',{
     strings : ['neksio','developer','c#','py','html','js','css','gfx designer','vfx editor','ui/ux designer','big namer','idiot','skid/paster'],
     typeSpeed : 40,

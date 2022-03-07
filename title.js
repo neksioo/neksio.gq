@@ -7,6 +7,8 @@
 ╚═╝  ╚═══╝╚══════╝╚═╝  ╚═╝╚══════╝╚═╝ ╚═════╝ ╚═╝ ╚═════╝╚═╝ 
 */
 
+// !!!!!!!!!!!!! THIS WEBSITE IS FREE TO USE !!!!!!!!!!!!! 
+
 var title = new MovingTitle("neksio.cf | ", 300, 10);
 title.init();
 function MovingTitle(writeText, interval, visibleLetters) {

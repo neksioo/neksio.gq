@@ -10,7 +10,7 @@
 // !!!!!!!!!!!!! THIS WEBSITE IS FREE TO USE !!!!!!!!!!!!! 
 
 new Typed('#typed',{
-    strings : ['neksio','developer','gfx designer','vfx editor'],
+    strings : ['neksio','developer','gfx designer','vfx editor','idiot'],
     typeSpeed : 40,
     delaySpeed : 90,
     loop : true

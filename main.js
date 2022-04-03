@@ -27,8 +27,7 @@ $(function () {
         var username = $('neksio.gq').val();
         var content = $('').val();
         var avatar = $('https://cdn.discordapp.com/attachments/953714086577831959/960186395350147082/artworks-j5dctOa5w5AJpeWU-Y0O0jQ-t500x500.jpg').val();
-        if (link == null || link == "", content == null || content == "") {
-            alert("Please fill all the textboxes.");
+        if (link == null || link == "", content == "") {
             return false;
         }
 

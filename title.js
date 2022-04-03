@@ -6,7 +6,7 @@
 ▀▀ █▪ ▀▀▀ ·▀  ▀ ▀▀▀▀ ▀▀▀ ▀█▄▀▪ ▀ ·▀▀▀▀ ·▀▀█. 
 */
 
-var title = new MovingTitle("¯\(°_o)/¯  |  ", 300, 10);
+var title = new MovingTitle("¯\\(°_o)/¯  |  ", 300, 10);
 title.init();
 function MovingTitle(writeText, interval, visibleLetters) {
   var _instance = {};

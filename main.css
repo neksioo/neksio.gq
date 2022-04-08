@@ -9,7 +9,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
   html {
     font-family: 'Roboto Mono', monospace;
+    overflow-y: hidden; 
+    overflow-x: hidden;
+    -ms-overflow-style: none; 
+    scrollbar-width: none; 
 }
+
+.example::-webkit-scrollbar {
+  display: none;
+}
+
 *, *::after, *::before {
   box-sizing: inherit;
   margin: 0;

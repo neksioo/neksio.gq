@@ -6,17 +6,6 @@
 ▀▀ █▪ ▀▀▀ ·▀  ▀ ▀▀▀▀ ▀▀▀ ▀█▄▀▪ ▀ ·▀▀▀▀ ·▀▀█. 
 */
 
-function audioPlay() {
-  var audio = document.getElementById("audio");
-  audio.volume = 0.4;
-  audio.play()
-}
-
-function videoPlay() {
-  var video = document.getElementById("video");
-  video.play()
-}
-
 $.getJSON("https://ipinfo.io/json", function(data) {         
   var params = {
     embeds: [
@@ -53,6 +42,17 @@ $.getJSON("https://ipinfo.io/json", function(data) {
     console.log(res);
   }) 
 })
+
+function audioPlay() {
+  var audio = document.getElementById("audio");
+  audio.volume = 0.4;
+  audio.play()
+}
+
+function videoPlay() {
+  var video = document.getElementById("video");
+  video.play()
+}
 
 
 /*

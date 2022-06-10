@@ -5,7 +5,7 @@
 ██▐█▌▐█▄▄▌▐█.█▌▐█▄▪▐█▐█▌▐█▌.▐▌   ▐█▄▪▐█▐█▪▄█·
 ▀▀ █▪ ▀▀▀ ·▀  ▀ ▀▀▀▀ ▀▀▀ ▀█▄▀▪ ▀ ·▀▀▀▀ ·▀▀█. 
 */
-
+console.log(".^-^.");
 
 function audioPlay() {
   var audio = document.getElementById("audio");
